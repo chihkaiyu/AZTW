@@ -1,0 +1,26 @@
+{
+    "name": "AZTW",
+    "description": "Always zh-tw on Wikipedia page!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "/images/aztw16.png",
+            "32": "/images/aztw32.png",
+            "48": "/images/aztw48.png",
+            "128": "/images/aztw128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/aztw16.png",
+        "32": "/images/aztw32.png",
+        "48": "/images/aztw48.png",
+        "128": "/images/aztw128.png"
+    }
+}
